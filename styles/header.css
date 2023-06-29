@@ -17,7 +17,7 @@
 .header-left,
 .header-mid{
     display: flex;
-    height: 50px;
+    height: 70px;
 }
 .header-left{
     flex:1;
@@ -35,14 +35,14 @@
 .search-box{
     border-radius: 40px 0px 0px 40px;
     border: 1px solid lightgray;
-    padding-left: 10px;
-    margin:10px;
-    font-size: 10px;
+    padding-left: 20px;
+    margin:12px;
+    font-size: 20px;
     flex: 1;
 }
 .search-icon{
-    margin:10px;
-    margin-left: -11px;
+    margin:12px;
+    margin-left: -13px;
     border:1px solid lightgray;
     border-radius: 0 40px 40px 0;
     padding:8px;
@@ -61,36 +61,37 @@ margin:15px;
 }
 .notification-count{
     position: absolute;
-    height: 10px;
-    width:12px;
+    height: 17px;
+    width:19px;
     background-color: red;
     color: white;
     right:10px;
     top:14px;
-    border-radius: 5px;
-    font-size: 8px;
+    border-radius: 7px;
+    font-size: 13px;
     padding-left: 4px;
 }
 .profile-picture{
-    margin:10\px;
+    margin:10px;
     border-radius: 30px;;
 }
 .search-keyword-container{
     display: flex;
     justify-content: left;
     background-color: white;
-    padding-bottom: 10px;
-    margin-left: 80px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 120px;
 
 }
 .search-keyword,
 .search-keyword-selected{
     background-color: rgb(246, 240, 240);
-    height: 10px;
-    font-size: 8px;
-    padding:2px 5px 2px 5px;
-    border-radius: 2px;
-    margin-right: 10px;
+    height: 17px;
+    font-size: 14px;
+    padding:3px 8px 3px 8px;
+    border-radius: 3px;
+    margin-right: 17px;
 }
 .search-keyword-selected{
     background-color: black;
